@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'poppins,sans-serif';
+    background-color: peachpuff;
+ }
+
+ /*------Navbar------*/
+  #navbar{
+     position: sticky;
+     top: 0%;
+     z-index: 10;
+
+  }
+ .bold{
+    font-size: 25px;
+ }
+ li{
+    padding: 5px;
+
+ }
+ .nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+ }
+
+ .nav-link:hover{
+    border-bottom: 2px solid orangered;
+    transition: .1s;
+ }
+
+ section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /*-------Home-------*/
+ span{
+   color: rgb(240, 111, 26);
+   font-weight: bold;
+ }
+
+ p{
+   font-size: 18px;
+ }
+
+ /*-----About---*/
+
+ #about img{
+   width: 25rem;
+   height: 25rem;
+   border-radius: 50px;
+   
+ }
+
+ /*---Services----*/
+
+ .card img{
+   height: 200px;
+ }
+  .inner{
+   overflow: hidden;
+  }
+ .card img:hover{
+   transform:  scale(1.5);
+   transition: 1s;
+ }
+ .card-body h5{
+   font-weight: bold;
+ }
